@@ -7,4 +7,4 @@ if you are tired to spend a lot of money in automatic gate controller this proje
 ![alt text](https://github.com/sdrabb/automatic-gate-opener-rpy/blob/master/img/circuit.JPG)
 
 
-### Work in progress
+### --------------------------------------------------> Work in progress
