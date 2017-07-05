@@ -13,36 +13,36 @@ If you are tired to spend a lot of money in automatic gate controller this proje
 
 go in your raspberry pi and paste the following commands: 
 
-* update the package lists for upgrades for packages that need upgrading
+update the package lists for upgrades for packages that need upgrading
 
 ```
 sudo apt-get update
 ```
-* fetch new versions of packages existing on the machine if APT knows about these new versions
+fetch new versions of packages existing on the machine if APT knows about these new versions
 
 ```
 sudo apt-get upgrade
 ```
-* install all necessary library
+install all necessary library
 
 ```
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make libjansson-dev
 ```
 
-* copy the Command-line interface for Telegram in the directory where you want install it
+copy the Command-line interface for Telegram in the directory where you want install it
 
 ```
 git clone --recursive https://github.com/vysheng/tg.git 
 ```
 
-* go in the tg folder, configure all and enter into installation of de Telegram cli
+go in the tg folder, configure all and enter into installation of de Telegram cli
 
 ```
 cd tg
 sudo ./configure
 sudo make
 ```
-* enter into the guided installation
+enter into the guided installation
 
 ```
 ./bin/telegram-cli
