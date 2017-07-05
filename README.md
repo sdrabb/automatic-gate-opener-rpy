@@ -9,6 +9,14 @@ If you are tired to spend a lot of money in automatic gate controller this proje
 
 ###  Work in progress   :hourglass_flowing_sand:
 
+## Installation
+
+go in your raspberry pi and paste the following commands: 
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
 
 
 Copyright © 2017 sdrabb
