@@ -8,3 +8,5 @@ If you are tired to spend a lot of money in automatic gate controller this proje
 
 
 ### --------------------------------------------------> Work in progress
+
+Copyright © 2017 sdrabb
