@@ -48,4 +48,11 @@ enter into the guided installation
 ./bin/telegram-cli
 ```
 
+now enter mobile phone with the prefix of your country, your name and surname of the people who are allowed to control the gate with the following command
+
+'''
+add_contact [countryPrefix_phone_number] [name] [surname]
+ex: add_contact 39xxxxxxxxx Alan Turing
+'''
+
 Copyright © 2017 sdrabb
