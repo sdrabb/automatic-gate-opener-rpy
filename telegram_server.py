@@ -21,8 +21,8 @@ def handle(msg):
     print 'Got command: %s' % command
 
     if sender in id_a:
-        if command == '/open':
-            bot.sendMessage(chat_id, 'gate opening')
+        if command == '/toggle':
+            bot.sendMessage(chat_id, 'toggle gate')
 	    toggle_relay(18)
     else:
         bot.sendMessage(chat_id, 'you are not authorized, please ask super user')
