@@ -15,7 +15,7 @@ If you are tired to spend a lot of money in automatic gate controller this proje
 
 ## Circuit Installation
 
-take your broken automatic gate controller and try to close the circuit with a cable. When you found the correct pins weld to each of them a cable and after that follow the images in this [images]()
+take your broken automatic gate controller and try to close the circuit with a cable. When you found the correct pins weld to each of them a cable and after that follow the images in the [build circuit folder](https://github.com/sdrabb/automatic-gate-opener-rpy/tree/master/build%20the%20circuit)
 
 
 ## SW Installation
