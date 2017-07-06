@@ -62,4 +62,9 @@ now chat with your bot using this command on your telegram app and  the gate wil
  ```
 /toggle
 ```
+
+## Structure
+* [remote_controller.py](https://github.com/sdrabb/automatic-gate-opener-rpy/blob/master/remote_controller.py): contains all the procedures used to control the circuit that open and close the gate
+* [telegram_server.py](https://github.com/sdrabb/automatic-gate-opener-rpy/blob/master/telegram_server.py): telegram server implementation
+
 Copyright © 2017 sdrabb
