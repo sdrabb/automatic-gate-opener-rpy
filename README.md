@@ -7,10 +7,10 @@ If you are tired to spend a lot of money in automatic gate controller this proje
 ![alt text](https://github.com/sdrabb/automatic-gate-opener-rpy/blob/master/img/circuit.JPG)
 
 ## Requirements
-* [Raspberry PI](https://www.raspberrypi.org/): Python framework for Telegram 
-* [Relay](https://www.amazon.com/SainSmart-101-70-101-4-Channel-Relay-Module/dp/B0057OC5O8): a Relay
-* [broken automatic gate controller]()
-* [cables]()
+* [Raspberry PI](https://www.raspberrypi.org/) 
+* [Relay](https://www.amazon.com/SainSmart-101-70-101-4-Channel-Relay-Module/dp/B0057OC5O8): 
+* [broken automatic gate controller](https://www.google.it/search?q=automatic+gate+controller&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjm19Sf6_TUAhXL6RQKHbRvAokQ_AUIPSgB&biw=1855&bih=917#tbm=isch&q=automatic+gate+controller+button)
+* [cables](https://www.google.it/search?q=automatic+gate+controller&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjm19Sf6_TUAhXL6RQKHbRvAokQ_AUIPSgB&biw=1855&bih=917#tbm=isch&q=wire)
 * [Tin welder](https://www.google.it/search?q=welding+machine+electronic&source=lnms&tbm=isch&sa=X&ved=0ahUKEwikmb2M4fTUAhUhIcAKHQDrC-sQ_AUIBigB&biw=1855&bih=966#tbm=isch&q=Tin+welder)
 
 ## Circuit Installation
