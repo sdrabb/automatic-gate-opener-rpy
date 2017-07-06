@@ -12,7 +12,7 @@ If you are tired to spend a lot of money in automatic gate controller this proje
 * [broken automatic gate controller](https://www.google.it/search?q=automatic+gate+controller&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjm19Sf6_TUAhXL6RQKHbRvAokQ_AUIPSgB&biw=1855&bih=917#tbm=isch&q=automatic+gate+controller+button)
 * [cables](https://www.google.it/search?q=automatic+gate+controller&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjm19Sf6_TUAhXL6RQKHbRvAokQ_AUIPSgB&biw=1855&bih=917#tbm=isch&q=wire)
 * [Tin welder](https://www.google.it/search?q=welding+machine+electronic&source=lnms&tbm=isch&sa=X&ved=0ahUKEwikmb2M4fTUAhUhIcAKHQDrC-sQ_AUIBigB&biw=1855&bih=966#tbm=isch&q=Tin+welder)
-
+* [mobile device with Telegram]()
 ## Circuit Installation
 
 take your broken automatic gate controller and try to close the circuit with a cable. When you found the correct pins weld to each of them a cable and after that follow the images in the [build circuit folder](https://github.com/sdrabb/automatic-gate-opener-rpy/tree/master/build%20the%20circuit)
@@ -72,7 +72,7 @@ now chat with your bot using this command on your telegram app and  the gate wil
 /toggle
 ```
 
-**note:**if you are using an ssh connection you can keep alive the session using a tool like [tmux](https://github.com/tmux/tmux/wiki)
+**note:** if you are using an ssh connection you can keep alive the session using a tool like [tmux](https://github.com/tmux/tmux/wiki)
 
 ## boot server at startup using systemd
 
