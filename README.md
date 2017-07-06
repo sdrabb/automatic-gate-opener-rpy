@@ -74,6 +74,43 @@ now chat with your bot using this command on your telegram app and  the gate wil
 
 **note:**if you are using an ssh connection you can keep alive the session using a tool like [tmux](https://github.com/tmux/tmux/wiki)
 
+## boot server at startup using systemd
+
+move to systemd folder of your Raspberry
+```
+cd lib/systemd/system/
+```
+create your service
+```
+sudo nano automatic_gate.service
+```
+and paste in the new file the following lines
+```
+[Unit]
+Description=Clown server for jessie
+After=network.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /home/pi/Desktop/projects/automatic-gate-opener-rpy/telegram_server.py >>/home/pi/log.txt 2>&1
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+```
+enable your service
+
+```
+sudo systemctl enable automatic_gate.service
+```
+control the status of your service
+```
+sudo systemctl status automatic_gate
+
+```
+
+
 ## Structure
 * [remote_controller.py](https://github.com/sdrabb/automatic-gate-opener-rpy/blob/master/remote_controller.py): contains all the procedures used to control the circuit that open and close the gate
 * [telegram_server.py](https://github.com/sdrabb/automatic-gate-opener-rpy/blob/master/telegram_server.py): telegram server implementation
