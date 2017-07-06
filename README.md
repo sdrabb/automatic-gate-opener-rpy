@@ -54,5 +54,12 @@ now enter the mobile phone number with the prefix of your country, your name and
 add_contact [countryPrefix_phone_number] [name] [surname]
 ex: add_contact 39xxxxxxxxx Alan Turing
 ```	
-
+at this point add the code prvided by BotFather into the array **id_a** and run the **telegram_server.py** using this command
+ ```
+python telegram_server.py
+```	
+now chat with your bot using this command on your telegram app and  the gate will start to opening
+ ```
+/toggle
+```
 Copyright © 2017 sdrabb
