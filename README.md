@@ -94,9 +94,13 @@ After=network.target
 Type=idle
 ExecStart=/usr/bin/python /home/pi/Desktop/projects/automatic-gate-opener-rpy/telegram_server.py >>/home/pi/log.txt 2>&1
 Restart=always
+StartLimitIntervalSec=1min
+StartLimitBurst=500
 
 [Install]
 WantedBy=multi-user.target
+
+
 
 ```
 enable your service
