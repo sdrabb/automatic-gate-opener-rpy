@@ -7,8 +7,6 @@ If you are tired to spend a lot of money in automatic gate controller this proje
 ![alt text](https://github.com/sdrabb/automatic-gate-opener-rpy/blob/master/img/circuit.JPG)
 
 
-###  Work in progress   :hourglass_flowing_sand:
-
 ## Installation
 
 go in your raspberry pi and paste the following commands: 
